@@ -56,7 +56,7 @@ logout_button.js_on_click(code="""window.location.href = './logout'""")
 
 pn.template.MaterialTemplate(
     site="Panel",
-    title="Awesome app",
+    title="Example Panel app",
     sidebar=[variable_widget, window_widget, sigma_widget, logout_button],
     main=[bound_plot],
 ).servable(); # The ; is needed in the notebook to not display the template. Its not needed in a script
