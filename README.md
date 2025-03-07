@@ -6,6 +6,8 @@ poetry run panel serve panel_example/main.py --basic-auth credentials.json --coo
 
 ## Dokku
 
+Deployed at: [https://panel.tombarone.net](https://panel.tombarone.net)
+
 Relevant files:
 
 - `.buildpacks`
@@ -37,6 +39,8 @@ git push dokku main
 ```
 
 ## GCP Cloud Run
+
+Deployed at: [https://panel-8616123745.australia-southeast1.run.app/main](https://panel-8616123745.australia-southeast1.run.app/main)
 
 Relevant files:
 
